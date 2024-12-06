@@ -1,0 +1,124 @@
+/* .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+
+.form {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 550px;
+}
+
+.question-container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование содержимого вопроса */
+    margin: 0;
+}
+
+.question-header {
+    margin-bottom: 20px;
+}
+
+.question-header h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#progress {
+    font-size: 15px;
+    font-weight: 100;
+    color: #555;
+}
+
+#question-content {
+    margin-bottom: 30px;
+}
+
+.option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: none;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+input[type="radio"] + label:before, input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="checkbox"] + label:before {
+    border-radius: 4px;
+}
+
+input[type="radio"]:checked + label:before {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+input[type="checkbox"]:checked + label:after {
+    content: '✔';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    margin-left: -18px;
+}
+
+input[type="text"] {
+    width: max-content;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

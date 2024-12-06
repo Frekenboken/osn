@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Наставничество</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form_styles.css">
+</head>
+<body>
+    <!-- Навбар -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">наставничество</a>
+            <ul class="nav-links">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Вход</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Контент -->
+    <main class="main-content">
+        <section class="hero">
+            <h1>Анкета учителя</h1>
+            <p></p>
+        </section>
+
+        <section class="features">
+            <div class="form">
+                <div class="question-container">
+                    <div class="question-header">
+                        <h2 id="question-title"></h2>
+                        <h3 id="progress"></h3>
+                    </div>
+                    <div id="question-content"></div>
+                    <button id="next-button">Далее</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>&copy; 2024 Наставничество. Все права защищены.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="form_student.js"></script>
+</body>
+</html>
