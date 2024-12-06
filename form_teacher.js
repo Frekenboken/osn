@@ -209,7 +209,7 @@ function finishSurvey() {
     console.log(dataToSend);
 
     // Отправляем данные на сервер
-    fetch('http://127.0.0.1:8001/forms', {
+    fetch('http://192.168.0.2:8001/forms', {
         method: 'POST',
         // mode: 'no-cors',
         headers: {
